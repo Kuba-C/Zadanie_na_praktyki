@@ -1,12 +1,12 @@
-*{
-margin: 0;
-padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
+body {
   margin: auto;
   width: 50%;
-  background-color: rgb(255,235,205);
+  background-color: rgb(255, 235, 205);
   font-family: sans-serif;
 }
 
@@ -35,47 +35,72 @@ nav>ul>li a:hover {
   background-color: rgb(128, 128, 128);
 }
 
-article#start{
-  background-color: rgb(30,144,255);
+article#start {
+  background-color: rgb(30, 144, 255);
   top: 0;
 }
 
-article#start>header>h1{
+article#start>header>h1 {
   color: white;
   margin-top: 40px;
   text-align: center;
   font-size: 3.5em;
   text-transform: uppercase;
-
 }
 
-article#start>header>h2{
+article#start>header>h2 {
   margin-top: 1px;
   text-align: center;
   color: white;
-
 }
 
-article#start>header>img{
-  margin:1em 0 0 24.5em;
-
+article#start>header>img {
+  margin: 1em 0 0 24.5em;
 }
 
-article#start>header>p{
-  font-size: 1.2em;
-  margin-top: 1px;
-  text-align: center;
-  color: white;
-
-}
-
-article#start>footer>p{
+article#start>header>p {
   font-size: 1.2em;
   margin-top: 1px;
   text-align: center;
   color: white;
 }
 
-article#start>footer>img{
-  margin:1em 0 0 26em;
+article#start>footer>p {
+  font-size: 1.2em;
+  margin-top: 1px;
+  text-align: center;
+  color: white;
+}
+
+article#start>footer>img {
+  margin: 1em 0 0 26em;
+}
+
+article#benefits {
+  background-color: rgb(0, 191, 255);
+  top: 0;
+  height: 28em;
+}
+
+article#benefits>header>h3 {
+  color: white;
+  text-align: justify;
+  font-size: 1.5em;
+}
+
+article#benefits>ul {
+  margin: 5em 0 0 4em;
+}
+
+article#benefits>ul>li {
+  color: white;
+  text-align: justify;
+  font-size: 1.2em;
+  margin: 2em 0 0 0;
+}
+
+article#benefits>img{
+  margin: 39em 0 10em 48em;
+  position: absolute;
+  top:0;
 }
