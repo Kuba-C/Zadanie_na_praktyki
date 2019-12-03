@@ -83,6 +83,8 @@ article#benefits {
 }
 
 article#benefits>header>h3 {
+  text-shadow: 2px 2px grey;
+  text-transform: uppercase;
   color: white;
   text-align: justify;
   font-size: 1.5em;
@@ -99,8 +101,65 @@ article#benefits>ul>li {
   margin: 2em 0 0 0;
 }
 
-article#benefits>img{
+article#benefits>img {
   margin: 39em 0 10em 48em;
   position: absolute;
-  top:0;
+  top: 0;
+}
+
+article#about {
+  background-color: white;
+  top: 0;
+  height: 28em;
+}
+
+article#about>header>h3 {
+  font-size: 1.5em;
+  text-transform: capitalize;
+  text-align: right;
+}
+
+article#about>ul {
+  margin: 3em 0 0 30em;
+}
+
+article#about>ul>li {
+  text-align: justify;
+  margin: 1em 0 0 0;
+  font-size: 0.9em;
+}
+
+article#about>footer>p {
+  text-align: justify;
+  margin: 3em 0 0 30em;
+  font-size: 0.9em;
+}
+
+hr {
+  height: 1px;
+  background-color: black;
+}
+
+article#create {
+  background-color: white;
+  top: 0;
+  height: 28em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+article#empty{
+  height: 28em;
+  background-color: rgb(30, 144, 255);
 }
