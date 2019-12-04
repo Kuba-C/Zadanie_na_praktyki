@@ -46,6 +46,7 @@ article#start>header>h1 {
   text-align: center;
   font-size: 3.5em;
   text-transform: uppercase;
+  padding-top: 0.2em;
 }
 
 article#start>header>h2 {
@@ -88,6 +89,8 @@ article#benefits>header>h3 {
   color: white;
   text-align: justify;
   font-size: 1.5em;
+  padding-top: 1em;
+  padding-left: 1em;
 }
 
 article#benefits>ul {
@@ -117,10 +120,13 @@ article#about>header>h3 {
   font-size: 1.5em;
   text-transform: capitalize;
   text-align: right;
+  padding-top: 1em;
+  padding-right: 1em;
 }
 
 article#about>ul {
   margin: 3em 0 0 30em;
+  padding-right: 1em;
 }
 
 article#about>ul>li {
@@ -133,6 +139,7 @@ article#about>footer>p {
   text-align: justify;
   margin: 3em 0 0 30em;
   font-size: 0.9em;
+  padding-right: 1em;
 }
 
 article#about>img {
@@ -156,6 +163,8 @@ article#create>header>h2 {
   font-size: 1.5em;
   text-transform: capitalize;
   text-align: center;
+  padding-top: 1em;
+
 }
 
 section.app1 {
@@ -166,7 +175,7 @@ section.app1 {
   border-style: solid;
   border-radius: 4px;
   margin-left: 5em;
-  margin-top: 10em;
+  margin-top: 7em;
   font-size: 0.9em;
   text-shadow: 0.5px 0.5px silver;
 }
@@ -179,7 +188,7 @@ section.app2 {
   border-style: solid;
   border-radius: 4px;
   margin-left: 25em;
-  margin-top: 10em;
+  margin-top: 7em;
   font-size: 0.9em;
   text-shadow: 0.5px 0.5px silver;
 }
@@ -192,7 +201,7 @@ section.app3 {
   border-style: solid;
   border-radius: 4px;
   margin-left: 45em;
-  margin-top: 10em;
+  margin-top: 7em;
   font-size: 0.9em;
   text-shadow: 0.5px 0.5px silver;
 }
@@ -231,7 +240,25 @@ article#join{
 article#contact{
   background-color: rgb(0, 191, 255);
   height: 28em;
+  color: white;
 }
+
+article#contact>form>fieldset{
+  width: 30em;
+  top:0;
+  margin-left: 4.5em;
+  border-style: double;
+  font-size: 1.5em;
+}
+
+article#contact>form>fieldset>legend{
+  text-align: center;
+  padding-top: 5em;
+  padding-bottom: 1em;
+
+
+}
+
 
 
 
