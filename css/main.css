@@ -135,9 +135,15 @@ article#about>footer>p {
   font-size: 0.9em;
 }
 
+article#about>img {
+  position: absolute;
+  top: 60em;
+  margin-left: 5em;
+}
+
 hr {
   height: 1px;
-  background-color: black;
+  background-color: rgb(220, 220, 220);
 }
 
 article#create {
@@ -146,20 +152,90 @@ article#create {
   height: 28em;
 }
 
+article#create>header>h2 {
+  font-size: 1.5em;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+section.app1 {
+  position: absolute;
+  width: 14em;
+  height: 10em;
+  border-color: rgb(220, 220, 220);
+  border-style: solid;
+  border-radius: 4px;
+  margin-left: 5em;
+  margin-top: 10em;
+  font-size: 0.9em;
+  text-shadow: 0.5px 0.5px silver;
+}
+
+section.app2 {
+  position: absolute;
+  width: 14em;
+  height: 10em;
+  border-color: rgb(220, 220, 220);
+  border-style: solid;
+  border-radius: 4px;
+  margin-left: 25em;
+  margin-top: 10em;
+  font-size: 0.9em;
+  text-shadow: 0.5px 0.5px silver;
+}
+
+section.app3 {
+  position: absolute;
+  width: 14em;
+  height: 10em;
+  border-color: rgb(220, 220, 220);
+  border-style: solid;
+  border-radius: 4px;
+  margin-left: 45em;
+  margin-top: 10em;
+  font-size: 0.9em;
+  text-shadow: 0.5px 0.5px silver;
+}
 
 
 
 
 
 
+article#use{
+  background-color: white;
+  height: 28em;
+}
+
+
+
+
+article#coach{
+  background-color: white;
+  height: 28em;
+}
+
+
+
+
+article#join{
+  background-color: white;
+  height: 28em;
+
+}
 
 
 
 
 
+article#contact{
+  background-color: rgb(0, 191, 255);
+  height: 28em;
+}
 
 
-article#empty{
+
+article#empty {
   height: 28em;
   background-color: rgb(30, 144, 255);
 }
