@@ -38,6 +38,7 @@ nav>ul>li a:hover {
 article#start {
   background-color: rgb(30, 144, 255);
   top: 0;
+  height: 31.5em;
 }
 
 article#start>header>h1 {
@@ -50,7 +51,7 @@ article#start>header>h1 {
 }
 
 article#start>header>h2 {
-  margin-top: 1px;
+  margin-top: 0.2em;
   text-align: center;
   color: white;
 }
@@ -62,15 +63,14 @@ article#start>header>img {
 
 article#start>header>p {
   font-size: 1.2em;
-  margin-top: 1px;
+  padding-top: 1em;
   text-align: center;
   color: white;
-  padding-top: 1em;
 }
 
 article#start>footer>p {
   font-size: 1.2em;
-  margin-top: 1px;
+  padding-top: 1em;
   text-align: center;
   color: white;
 }
@@ -150,7 +150,7 @@ article#about>img {
   position: absolute;
   top: 60em;
   margin-left: 5em;
-  padding-top: 1.5em;
+  padding-top: 3em;
 }
 
 hr {
@@ -198,7 +198,14 @@ section.app1 {
   text-shadow: 0.5px 0.5px silver;
   padding-left: 1.5em;
   padding-right: 1em;
-  padding-top: 1em;
+  padding-top: 6em;
+}
+
+section.app1>img{
+  height: 5em;
+  position: absolute;
+  padding-left: 4.5em;
+  top: 0;
 }
 
 section.app2 {
@@ -214,7 +221,14 @@ section.app2 {
   text-shadow: 0.5px 0.5px silver;
   padding-left: 1.5em;
   padding-right: 1em;
-  padding-top: 1em;
+  padding-top: 6em;
+}
+
+section.app2>img{
+  height: 5em;
+  position: absolute;
+  padding-left: 4.5em;
+  top: 0;
 }
 
 section.app3 {
@@ -230,7 +244,14 @@ section.app3 {
   text-shadow: 0.5px 0.5px silver;
   padding-left: 1.5em;
   padding-right: 1em;
-  padding-top: 1em;
+  padding-top: 6em;
+}
+
+section.app3>img{
+  height: 5em;
+  position: absolute;
+  padding-left: 4.5em;
+  top: 0;
 }
 
 article#use {
@@ -288,7 +309,7 @@ article#join>section#info>img{
   padding-left: 30em;
   position: absolute;
   top:0;
-  margin-top: 177em;
+  margin-top: 180em;
 
 }
 
