@@ -256,7 +256,7 @@ section.app3>img{
 
 article#use {
   background-color: white;
-  height: 28em;
+  height: 30em;
 }
 
 article#use>h2{
@@ -368,7 +368,7 @@ article#use>section.useapp5>p{
 
 article#coach {
   background-color: white;
-  height: 28em;
+  height: 30em;
 }
 
 article#coach>header>h2{
@@ -378,7 +378,7 @@ article#coach>header>h2{
 
 article#coach>section#aboutcoach>h3{
   padding-left: 21.5em;
-  padding-top: 2em;
+  padding-top: 1em;
 }
 
 article#coach>section#aboutcoach>p.exp{
@@ -386,12 +386,30 @@ article#coach>section#aboutcoach>p.exp{
   padding-top: 1em;
 }
 
+section#bubbles>p.one{
+  padding-top: 2em;
+  padding-left: 30em;
+}
 
+section#bubbles>p.two{
+  padding-top: 2em;
+  padding-left: 35em;
+}
 
+section#bubbles>ul{
+  list-style-type: none;
+  padding-left: 40em;
+  padding-top:2em;
+}
 
+section#bubbles>ul>li{
+  float: left;
+  padding-left: 0.5em;
+}
 
-
-
+section#bubbles>ul>li>img{
+  height: 2em;
+}
 
 
 
@@ -442,7 +460,7 @@ article#join>section#info>img{
   padding-left: 30em;
   position: absolute;
   top:0;
-  margin-top: 180em;
+  margin-top: 183em;
 
 }
 
