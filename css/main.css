@@ -201,7 +201,7 @@ section.app1 {
   padding-top: 6em;
 }
 
-section.app1>img{
+section.app1>img {
   height: 5em;
   position: absolute;
   padding-left: 4.5em;
@@ -224,7 +224,7 @@ section.app2 {
   padding-top: 6em;
 }
 
-section.app2>img{
+section.app2>img {
   height: 5em;
   position: absolute;
   padding-left: 4.5em;
@@ -247,7 +247,7 @@ section.app3 {
   padding-top: 6em;
 }
 
-section.app3>img{
+section.app3>img {
   height: 5em;
   position: absolute;
   padding-left: 4.5em;
@@ -259,109 +259,109 @@ article#use {
   height: 30em;
 }
 
-article#use>h2{
+article#use>h2 {
   text-align: center;
   padding-top: 1em;
 }
 
-article#use>section.useapp1{
-  position:absolute;
+article#use>section.useapp1 {
+  position: absolute;
 }
 
-article#use>section.useapp1>img{
-  height:7em;
+article#use>section.useapp1>img {
+  height: 7em;
   position: absolute;
   padding-left: 6em;
   padding-top: 1em;
 }
 
-article#use>section.useapp1>h4{
+article#use>section.useapp1>h4 {
   padding-left: 7em;
   padding-top: 9em;
 }
 
-article#use>section.useapp1>p{
+article#use>section.useapp1>p {
   padding-left: 3em;
 }
 
-article#use>section.useapp2>img{
-  height:7em;
+article#use>section.useapp2>img {
+  height: 7em;
   position: absolute;
   padding-left: 25em;
   padding-top: 1em;
 }
 
-article#use>section.useapp2{
+article#use>section.useapp2 {
   position: absolute;
 }
 
-article#use>section.useapp2>h4{
+article#use>section.useapp2>h4 {
   padding-left: 23.5em;
   padding-top: 9em;
 }
 
-article#use>section.useapp2>p{
+article#use>section.useapp2>p {
   padding-left: 21em;
 }
 
-article#use>section.useapp3{
+article#use>section.useapp3 {
   position: absolute;
 }
 
-article#use>section.useapp3>img{
-  height:7em;
+article#use>section.useapp3>img {
+  height: 7em;
   position: absolute;
   padding-left: 44em;
   padding-top: 1em;
 }
 
-article#use>section.useapp3>h4{
+article#use>section.useapp3>h4 {
   padding-left: 46em;
   padding-top: 9em;
 }
 
-article#use>section.useapp3>p{
+article#use>section.useapp3>p {
   padding-left: 40em;
 }
 
-article#use>section.useapp4{
+article#use>section.useapp4 {
   position: absolute;
 }
 
-article#use>section.useapp4>img{
-  height:7em;
+article#use>section.useapp4>img {
+  height: 7em;
   position: absolute;
   padding-left: 15em;
   padding-top: 12em;
 }
 
-article#use>section.useapp4>h4{
+article#use>section.useapp4>h4 {
   padding-left: 16em;
   padding-top: 20em;
 }
 
-article#use>section.useapp4>p{
+article#use>section.useapp4>p {
   padding-left: 10em;
   text-align: center;
 }
 
-article#use>section.useapp5{
+article#use>section.useapp5 {
   position: absolute;
 }
 
-article#use>section.useapp5>img{
-  height:7em;
+article#use>section.useapp5>img {
+  height: 7em;
   position: absolute;
   padding-left: 35.28em;
   padding-top: 12em;
 }
 
-article#use>section.useapp5>h4{
+article#use>section.useapp5>h4 {
   padding-left: 36em;
   padding-top: 20em;
 }
 
-article#use>section.useapp5>p{
+article#use>section.useapp5>p {
   padding-left: 33em;
   text-align: center;
 }
@@ -371,97 +371,91 @@ article#coach {
   height: 30em;
 }
 
-article#coach>header>h2{
+article#coach>header>h2 {
   text-align: center;
   padding-top: 1em;
 }
 
-article#coach>section#aboutcoach>h3{
+article#coach>section#aboutcoach>h3 {
   padding-left: 21.5em;
   padding-top: 1em;
 }
 
-article#coach>section#aboutcoach>p.exp{
+article#coach>section#aboutcoach>p.exp {
   padding-left: 25em;
   padding-top: 1em;
 }
 
-section#bubbles>p.one{
+section#bubbles>p.one {
   padding-top: 2em;
   padding-left: 30em;
 }
 
-section#bubbles>p.two{
+section#bubbles>p.two {
   padding-top: 2em;
   padding-left: 35em;
 }
 
-section#bubbles>ul{
+section#bubbles>ul {
   list-style-type: none;
   padding-left: 40em;
-  padding-top:2em;
+  padding-top: 2em;
 }
 
-section#bubbles>ul>li{
+section#bubbles>ul>li {
   float: left;
   padding-left: 0.5em;
 }
 
-section#bubbles>ul>li>img{
+section#bubbles>ul>li>img {
   height: 2em;
 }
-
-
-
-
 
 article#join {
   background-color: white;
   height: 28em;
 }
 
-article#join>header>h2{
+article#join>header>h2 {
   font-size: 1.5em;
   text-transform: capitalize;
   text-align: center;
   padding-top: 1em;
 }
 
-article#join>section#info>h4{
+article#join>section#info>h4 {
   padding-left: 5em;
   padding-top: 3em;
 }
 
-article#join>section#info>p.date{
+article#join>section#info>p.date {
   padding-top: 1.5em;
   padding-left: 5em;
 }
 
-article#join>section#info>p.place{
+article#join>section#info>p.place {
   padding-left: 5.6em;
   font-size: 0.9em;
 }
 
-article#join>section#info>p.rec{
+article#join>section#info>p.rec {
   padding-left: 5.6em;
   padding-top: 3em;
   font-size: 0.9em;
 }
 
-article#join>section#info>p.price{
+article#join>section#info>p.price {
   font-size: 0.7em;
   padding-left: 7.1em;
   padding-top: 1.5em;
-
 }
 
-article#join>section#info>img{
+article#join>section#info>img {
   height: 20em;
   padding-left: 30em;
   position: absolute;
-  top:0;
+  top: 0;
   margin-top: 183em;
-
 }
 
 article#contact {
@@ -497,7 +491,6 @@ input#text {
   width: 30em;
   margin-left: 12em;
   margin-top: 0.25em;
-
 }
 
 article#empty {
