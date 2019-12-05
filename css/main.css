@@ -57,6 +57,7 @@ article#start>header>h2 {
 
 article#start>header>img {
   margin: 1em 0 0 24.5em;
+  height: 10em;
 }
 
 article#start>header>p {
@@ -64,6 +65,7 @@ article#start>header>p {
   margin-top: 1px;
   text-align: center;
   color: white;
+  padding-top: 1em;
 }
 
 article#start>footer>p {
@@ -74,7 +76,8 @@ article#start>footer>p {
 }
 
 article#start>footer>img {
-  margin: 1em 0 0 26em;
+  margin: 1em 0 0 27em;
+  height: 4em;
 }
 
 article#benefits {
@@ -143,9 +146,11 @@ article#about>footer>p {
 }
 
 article#about>img {
+  height: 26em;
   position: absolute;
   top: 60em;
   margin-left: 5em;
+  padding-top: 1.5em;
 }
 
 hr {
@@ -241,6 +246,50 @@ article#coach {
 article#join {
   background-color: white;
   height: 28em;
+}
+
+article#join>header>h2{
+  font-size: 1.5em;
+  text-transform: capitalize;
+  text-align: center;
+  padding-top: 1em;
+}
+
+article#join>section#info>h4{
+  padding-left: 5em;
+  padding-top: 3em;
+}
+
+article#join>section#info>p.date{
+  padding-top: 1.5em;
+  padding-left: 5em;
+}
+
+article#join>section#info>p.place{
+  padding-left: 5.6em;
+  font-size: 0.9em;
+}
+
+article#join>section#info>p.rec{
+  padding-left: 5.6em;
+  padding-top: 3em;
+  font-size: 0.9em;
+}
+
+article#join>section#info>p.price{
+  font-size: 0.7em;
+  padding-left: 7.1em;
+  padding-top: 1.5em;
+
+}
+
+article#join>section#info>img{
+  height: 20em;
+  padding-left: 30em;
+  position: absolute;
+  top:0;
+  margin-top: 177em;
+
 }
 
 article#contact {
