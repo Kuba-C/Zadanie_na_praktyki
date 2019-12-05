@@ -268,6 +268,13 @@ article#use>section.useapp1{
   position:absolute;
 }
 
+article#use>section.useapp1>img{
+  height:7em;
+  position: absolute;
+  padding-left: 6em;
+  padding-top: 1em;
+}
+
 article#use>section.useapp1>h4{
   padding-left: 7em;
   padding-top: 9em;
@@ -275,6 +282,13 @@ article#use>section.useapp1>h4{
 
 article#use>section.useapp1>p{
   padding-left: 3em;
+}
+
+article#use>section.useapp2>img{
+  height:7em;
+  position: absolute;
+  padding-left: 25em;
+  padding-top: 1em;
 }
 
 article#use>section.useapp2{
@@ -294,6 +308,13 @@ article#use>section.useapp3{
   position: absolute;
 }
 
+article#use>section.useapp3>img{
+  height:7em;
+  position: absolute;
+  padding-left: 44em;
+  padding-top: 1em;
+}
+
 article#use>section.useapp3>h4{
   padding-left: 46em;
   padding-top: 9em;
@@ -305,6 +326,13 @@ article#use>section.useapp3>p{
 
 article#use>section.useapp4{
   position: absolute;
+}
+
+article#use>section.useapp4>img{
+  height:7em;
+  position: absolute;
+  padding-left: 15em;
+  padding-top: 12em;
 }
 
 article#use>section.useapp4>h4{
@@ -319,6 +347,13 @@ article#use>section.useapp4>p{
 
 article#use>section.useapp5{
   position: absolute;
+}
+
+article#use>section.useapp5>img{
+  height:7em;
+  position: absolute;
+  padding-left: 35.28em;
+  padding-top: 12em;
 }
 
 article#use>section.useapp5>h4{
