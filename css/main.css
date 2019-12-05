@@ -259,10 +259,108 @@ article#use {
   height: 28em;
 }
 
+article#use>h2{
+  text-align: center;
+  padding-top: 1em;
+}
+
+article#use>section.useapp1{
+  position:absolute;
+}
+
+article#use>section.useapp1>h4{
+  padding-left: 7em;
+  padding-top: 9em;
+}
+
+article#use>section.useapp1>p{
+  padding-left: 3em;
+}
+
+article#use>section.useapp2{
+  position: absolute;
+}
+
+article#use>section.useapp2>h4{
+  padding-left: 23.5em;
+  padding-top: 9em;
+}
+
+article#use>section.useapp2>p{
+  padding-left: 21em;
+}
+
+article#use>section.useapp3{
+  position: absolute;
+}
+
+article#use>section.useapp3>h4{
+  padding-left: 46em;
+  padding-top: 9em;
+}
+
+article#use>section.useapp3>p{
+  padding-left: 40em;
+}
+
+article#use>section.useapp4{
+  position: absolute;
+}
+
+article#use>section.useapp4>h4{
+  padding-left: 16em;
+  padding-top: 20em;
+}
+
+article#use>section.useapp4>p{
+  padding-left: 10em;
+  text-align: center;
+}
+
+article#use>section.useapp5{
+  position: absolute;
+}
+
+article#use>section.useapp5>h4{
+  padding-left: 36em;
+  padding-top: 20em;
+}
+
+article#use>section.useapp5>p{
+  padding-left: 33em;
+  text-align: center;
+}
+
 article#coach {
   background-color: white;
   height: 28em;
 }
+
+article#coach>header>h2{
+  text-align: center;
+  padding-top: 1em;
+}
+
+article#coach>section#aboutcoach>h3{
+  padding-left: 21.5em;
+  padding-top: 2em;
+}
+
+article#coach>section#aboutcoach>p.exp{
+  padding-left: 25em;
+  padding-top: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 article#join {
   background-color: white;
