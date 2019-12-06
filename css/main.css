@@ -107,7 +107,7 @@ article#start>footer>img {
 }
 
 article#benefits {
-  background-color: #00BFFF;
+  background-color: #6dcff6;
   min-height: 25em;
 }
 
@@ -189,7 +189,7 @@ article#about p {
   text-align: justify;
   font-size: 0.9em;
   margin: 0 0 0 47%;
-  padding: 2em 0 0 0;
+  padding: 2em 0 1em 0;
 }
 
 hr {
@@ -198,99 +198,97 @@ hr {
 }
 
 article#create {
-  background-color: white;
-  top: 0;
-  height: 28em;
-  position: relative;
-  z-index: -1;
+  background-color: #fff;
+  min-height: 30em;
 }
 
-article#create>header>h2 {
+article#create .content{
+  position: relative;
+  margin: 0 auto;
+  width: 70%;
+  min-height: 25em;
+  background-color: #fff;
+}
+
+article#create h2 {
   font-size: 1.5em;
   text-transform: capitalize;
   text-align: center;
-  padding-top: 1em;
+  padding-top: 2em;
 }
 
-article#create>section.app1>h4 {
+article#create section.app1>h4 {
   text-align: center;
+  padding: 1em 0;
 }
 
-article#create>section.app2>h4 {
+article#create section.app2>h4 {
   text-align: center;
-  padding-bottom: 1em;
+  padding: 1em 0;
 }
 
-article#create>section.app3>h4 {
+article#create section.app3>h4 {
   text-align: center;
-  padding-bottom: 1em;
+  padding: 1em 0;
 }
 
 section.app1 {
-  width: 14em;
-  height: 10em;
-  border-color: rgb(220, 220, 220);
+  position: absolute;
+  border-color: #DCDCDC;
   border-style: solid;
   border-radius: 4px;
-  margin-left: 5em;
-  margin-top: 7em;
-  font-size: 0.9em;
-  text-shadow: 0.5px 0.5px silver;
-  padding-left: 1.5em;
-  padding-right: 1em;
-  padding-top: 6em;
+  font-size: 0.8em;
+  margin: 3em 0 0 20%;
+  padding: 1.5em;
+  width: 15em;
+  height: 19em;
 }
 
 section.app1>img {
-  height: 5em;
-  padding-left: 4.5em;
-  top: 0;
+  display: block;
+  margin: 0 auto;
+  height: 7em;
 }
 
 section.app2 {
-  width: 14em;
-  height: 10em;
-  border-color: rgb(220, 220, 220);
+  position: absolute;
+  border-color: #DCDCDC;
   border-style: solid;
   border-radius: 4px;
-  margin-left: 25em;
-  margin-top: 7em;
-  font-size: 0.9em;
-  text-shadow: 0.5px 0.5px silver;
-  padding-left: 1.5em;
-  padding-right: 1em;
-  padding-top: 6em;
+  font-size: 0.8em;
+  margin: 3em 0 0 40%;
+  padding: 1.5em;
+  width: 15em;
+  height: 19em;
 }
 
 section.app2>img {
-  height: 5em;
-  padding-left: 4.5em;
-  top: 0;
+  display: block;
+  margin: 0 auto;
+  height: 7em;
+
 }
 
 section.app3 {
-  width: 14em;
-  height: 10em;
-  border-color: rgb(220, 220, 220);
+  position: absolute;
+  border-color: #DCDCDC;
   border-style: solid;
   border-radius: 4px;
-  margin-left: 45em;
-  margin-top: 7em;
-  font-size: 0.9em;
-  text-shadow: 0.5px 0.5px silver;
-  padding-left: 1.5em;
-  padding-right: 1em;
-  padding-top: 6em;
+  font-size: 0.8em;
+  margin: 3em 0 0 60%;
+  padding: 1.5em;
+  width: 15em;
+  height: 19em;
 }
 
 section.app3>img {
-  height: 5em;
-  padding-left: 4.5em;
-  top: 0;
+  display: block;
+  margin: 0 auto;
+  height: 6.5em;
 }
 
 article#use {
-  background-color: white;
+  background-color: #dda;
   height: 30em;
 }
 
@@ -473,12 +471,10 @@ article#join>section#info>p.price {
 article#join>section#info>img {
   height: 20em;
   padding-left: 30em;
-  top: 0;
-  margin-top: 183em;
 }
 
 article#contact {
-  background-color: rgb(0, 191, 255);
+  background-color: #6dcff6;
   height: 25em;
   color: white;
 }
