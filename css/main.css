@@ -4,18 +4,21 @@
 }
 
 body {
-  margin: auto;
-  width: 50%;
   background-color: rgb(255, 235, 205);
   font-family: sans-serif;
 }
 
-nav>ul {
-  overflow: hidden;
+nav {
   background-color: #333;
   position: fixed;
-  width: 50%;
   top: 0;
+  width: 100%;
+  z-index: 1000000;
+}
+
+nav>ul {
+  margin: 0 auto;
+  width: 50%;
 }
 
 nav>ul>li {
@@ -32,13 +35,17 @@ nav>ul>li a {
 }
 
 nav>ul>li a:hover {
-  background-color: rgb(128, 128, 128);
+  background-color: #808080;
 }
 
 article#start {
-  background-color: rgb(30, 144, 255);
-  top: 0;
+  padding: 3em 0 0 0;
+  background-color: #0da2d6;
   height: 31.5em;
+}
+
+article#start>header {
+  text-align: center;
 }
 
 article#start>header>h1 {
@@ -57,7 +64,7 @@ article#start>header>h2 {
 }
 
 article#start>header>img {
-  margin: 1em 0 0 24.5em;
+  padding: 2em;
   height: 10em;
 }
 
@@ -68,56 +75,94 @@ article#start>header>p {
   color: white;
 }
 
-article#start>footer>p {
-  font-size: 1.2em;
-  padding-top: 1em;
-  text-align: center;
-  color: white;
+article#start>footer {
+  margin: 0 auto;
+  max-width: 50%;
+  color: #fff;
+  line-height: 2em;
+}
+
+article#start>footer .trener, article#start>footer .col2 {
+  width: 50%;
+}
+
+article#start>footer .trener {
+  float: left;
+}
+
+article#start>footer .twitter {
+
+}
+
+article#start>footer .twitter img {
+  float: left;
+  height: 2em;
 }
 
 article#start>footer>img {
-  margin: 1em 0 0 27em;
-  height: 4em;
+  height: 3em;
 }
 
 article#benefits {
   background-color: rgb(0, 191, 255);
-  top: 0;
-  height: 28em;
 }
 
-article#benefits>header>h3 {
+article#benefits section.content {
+  position: relative;
+  padding: 1em 0;
+  margin: 0 auto;
+  width: 70%;
+  min-height: 15em;
+}
+
+article#benefits section.content img {
+  position: absolute;
+  top: 1em;
+  right: 0;
+  height: 15em;
+}
+
+article#benefits h3 {
   text-shadow: 2px 2px grey;
   text-transform: uppercase;
   color: white;
   text-align: justify;
   font-size: 1.5em;
-  padding-top: 1em;
   padding-left: 1em;
 }
 
-article#benefits>ul {
-  margin: 5em 0 0 4em;
+article#benefits ul {
+  margin: 3em 0 0 4em;
+  line-height: 2.6em;
 }
 
-article#benefits>ul>li {
-  color: white;
-  text-align: justify;
-  font-size: 1.2em;
-  margin: 2em 0 0 0;
-}
-
-article#benefits>img {
-  margin: 39em 0 10em 48em;
-  position: absolute;
-  top: 0;
+article#benefits ul>li {
+  color: #fff;
 }
 
 article#about {
-  background-color: white;
-  top: 0;
-  height: 28em;
+  clear: both;
+  background-color: #ada;
 }
+
+article#about .content {
+  position: relative;
+  margin: 0 auto;
+  width: 70%;
+  min-height: 30em;
+  background-color: #dae;
+}
+
+article#about .content ul {
+  margin: 0 0 0 50%;
+}
+
+article#about .content img.background {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
 
 article#about>header>h3 {
   font-size: 1.5em;
@@ -147,7 +192,7 @@ article#about>footer>p {
 
 article#about>img {
   height: 26em;
-  position: absolute;
+  
   top: 60em;
   margin-left: 5em;
   padding-top: 3em;
@@ -162,6 +207,8 @@ article#create {
   background-color: white;
   top: 0;
   height: 28em;
+  position: relative;
+  z-index: -1;
 }
 
 article#create>header>h2 {
@@ -186,7 +233,6 @@ article#create>section.app3>h4 {
 }
 
 section.app1 {
-  position: absolute;
   width: 14em;
   height: 10em;
   border-color: rgb(220, 220, 220);
@@ -203,13 +249,11 @@ section.app1 {
 
 section.app1>img {
   height: 5em;
-  position: absolute;
   padding-left: 4.5em;
   top: 0;
 }
 
 section.app2 {
-  position: absolute;
   width: 14em;
   height: 10em;
   border-color: rgb(220, 220, 220);
@@ -226,13 +270,11 @@ section.app2 {
 
 section.app2>img {
   height: 5em;
-  position: absolute;
   padding-left: 4.5em;
   top: 0;
 }
 
 section.app3 {
-  position: absolute;
   width: 14em;
   height: 10em;
   border-color: rgb(220, 220, 220);
@@ -249,7 +291,6 @@ section.app3 {
 
 section.app3>img {
   height: 5em;
-  position: absolute;
   padding-left: 4.5em;
   top: 0;
 }
@@ -265,12 +306,11 @@ article#use>h2 {
 }
 
 article#use>section.useapp1 {
-  position: absolute;
+  
 }
 
 article#use>section.useapp1>img {
   height: 7em;
-  position: absolute;
   padding-left: 6em;
   padding-top: 1em;
 }
@@ -286,13 +326,12 @@ article#use>section.useapp1>p {
 
 article#use>section.useapp2>img {
   height: 7em;
-  position: absolute;
   padding-left: 25em;
   padding-top: 1em;
 }
 
 article#use>section.useapp2 {
-  position: absolute;
+  
 }
 
 article#use>section.useapp2>h4 {
@@ -305,12 +344,11 @@ article#use>section.useapp2>p {
 }
 
 article#use>section.useapp3 {
-  position: absolute;
+  
 }
 
 article#use>section.useapp3>img {
   height: 7em;
-  position: absolute;
   padding-left: 44em;
   padding-top: 1em;
 }
@@ -325,12 +363,11 @@ article#use>section.useapp3>p {
 }
 
 article#use>section.useapp4 {
-  position: absolute;
+  
 }
 
 article#use>section.useapp4>img {
   height: 7em;
-  position: absolute;
   padding-left: 15em;
   padding-top: 12em;
 }
@@ -346,12 +383,11 @@ article#use>section.useapp4>p {
 }
 
 article#use>section.useapp5 {
-  position: absolute;
+  
 }
 
 article#use>section.useapp5>img {
   height: 7em;
-  position: absolute;
   padding-left: 35.28em;
   padding-top: 12em;
 }
@@ -453,7 +489,7 @@ article#join>section#info>p.price {
 article#join>section#info>img {
   height: 20em;
   padding-left: 30em;
-  position: absolute;
+  
   top: 0;
   margin-top: 183em;
 }
