@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: rgb(255, 235, 205);
+  background-color: #fff;
   font-family: sans-serif;
 }
 
@@ -386,7 +386,7 @@ article#coach>section.content{
   width:70%;
   position: relative;
   margin: 0 auto;
-  min-height: 32em;
+  min-height: 33em;
 }
 
 article#coach header>h2 {
@@ -437,74 +437,85 @@ article#coach section#bubbles>ul>li>img {
 }
 
 article#join {
-  background-color: white;
-  height: 28em;
+  background-color: #daa;
 }
 
-article#join>header>h2 {
+article#join section.content{
+  background-color: #add;
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+}
+
+article#join header>h2 {
   font-size: 1.5em;
   text-transform: capitalize;
   text-align: center;
-  padding-top: 1em;
+  padding-top: 2em;
 }
 
-article#join>section#info>h4 {
+article#join section#info>h4 {
   padding-left: 5em;
-  padding-top: 3em;
+  padding-top: 5em;
 }
 
-article#join>section#info>p.date {
+article#join section#info>p.date {
   padding-top: 1.5em;
   padding-left: 5em;
 }
 
-article#join>section#info>p.place {
+article#join section#info>p.place {
   padding-left: 5.6em;
   font-size: 0.9em;
 }
 
-article#join>section#info>p.rec {
+article#join section#info>p.rec {
   padding-left: 5.6em;
   padding-top: 3em;
   font-size: 0.9em;
 }
 
-article#join>section#info>p.price {
+article#join section#info>p.price {
   font-size: 0.7em;
   padding-left: 7.1em;
   padding-top: 1.5em;
 }
 
-article#join>section#info>img {
+article#join>section.content>img {
+  position: absolute;
   height: 20em;
   padding-left: 30em;
+  top:0;
+  margin: 5em 0 0 0;
 }
 
 article#contact {
+  position: relative;
   background-color: #6dcff6;
-  height: 25em;
   color: white;
+  min-height: 30em;
 }
 
 article#contact>form>fieldset {
   width: 30em;
-  top: 0;
-  margin-left: 4.5em;
   border-style: none;
   font-size: 1.5em;
-  padding-bottom: 1em;
+  margin: 0 auto;
+  padding: 1em 0 2em 0;
 }
 
 article#contact>form>fieldset>legend {
   text-align: center;
-  padding-top: 2em;
+  padding-top: 3.5em;
   padding-bottom: 1em;
 }
 
 input.first {
+  border-style: none;
   height: 2em;
   width: 30em;
   margin-left: 12em;
+  margin-top: 1em;
   padding-bottom: 1em;
 }
 
@@ -512,7 +523,14 @@ input#text {
   height: 8em;
   width: 30em;
   margin-left: 12em;
-  margin-top: 0.25em;
+  margin-top: 1em;
+  border-style: none;
+}
+article#contact>img {
+  margin-left: 75em;
+  position: absolute;
+  top: 0;
+  margin-top: 9em;
 }
 
 article#empty {
