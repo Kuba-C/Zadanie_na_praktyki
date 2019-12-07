@@ -288,100 +288,92 @@ section.app3>img {
 }
 
 article#use {
-  background-color: #dda;
-  height: 30em;
+  background-color: #fff;
+  min-height: 40em;
 }
 
 article#use>h2 {
   text-align: center;
   padding-top: 1em;
 }
-
-article#use>section.useapp1 {}
-
-article#use>section.useapp1>img {
-  height: 7em;
-  padding-left: 6em;
-  padding-top: 1em;
+article#use>section.content{
+  width: 70%;
+  background-color: #fff;
+  position: relative;
+  margin: 0 auto;
 }
 
-article#use>section.useapp1>h4 {
-  padding-left: 7em;
-  padding-top: 9em;
-}
-
-article#use>section.useapp1>p {
-  padding-left: 3em;
-}
-
-article#use>section.useapp2>img {
-  height: 7em;
-  padding-left: 25em;
-  padding-top: 1em;
-}
-
-article#use>section.useapp2 {}
-
-article#use>section.useapp2>h4 {
-  padding-left: 23.5em;
-  padding-top: 9em;
-}
-
-article#use>section.useapp2>p {
-  padding-left: 21em;
-}
-
-article#use>section.useapp3 {}
-
-article#use>section.useapp3>img {
-  height: 7em;
-  padding-left: 44em;
-  padding-top: 1em;
-}
-
-article#use>section.useapp3>h4 {
-  padding-left: 46em;
-  padding-top: 9em;
-}
-
-article#use>section.useapp3>p {
-  padding-left: 40em;
-}
-
-article#use>section.useapp4 {}
-
-article#use>section.useapp4>img {
-  height: 7em;
-  padding-left: 15em;
-  padding-top: 12em;
-}
-
-article#use>section.useapp4>h4 {
-  padding-left: 16em;
-  padding-top: 20em;
-}
-
-article#use>section.useapp4>p {
-  padding-left: 10em;
+article#use>section.content>section.useapp1 {
+  position: absolute;
   text-align: center;
+  padding: 5em 0 0 20%;
 }
 
-article#use>section.useapp5 {}
-
-article#use>section.useapp5>img {
-  height: 7em;
-  padding-left: 35.28em;
-  padding-top: 12em;
+article#use section.useapp1>img {
+  height: 9em;
+  padding-bottom: 1.5em;
 }
 
-article#use>section.useapp5>h4 {
-  padding-left: 36em;
-  padding-top: 20em;
+article#use section.useapp1>p {
 }
 
-article#use>section.useapp5>p {
-  padding-left: 33em;
+article#use>section.content>section.useapp2 {
+  position: absolute;
   text-align: center;
+  padding: 5em 0 0 40%;
+}
+
+article#use section.useapp2>img {
+  height: 9em;
+  padding-bottom: 1.5em;
+}
+
+article#use section.useapp2>p {
+}
+
+article#use>section.content>section.useapp3 {
+  position: absolute;
+  text-align: center;
+  padding: 5em 0 0 60%;
+}
+
+article#use section.useapp3>img {
+  height: 9em;
+  padding-bottom: 1.5em;
+}
+
+article#use section.useapp3>p {
+}
+
+article#use>section.content>section.useapp4 {
+  position: absolute;
+  text-align: center;
+  padding: 20em 0 0 28%;
+}
+
+article#use section.useapp4>img {
+  height: 9em;
+  padding-bottom: 1.5em;
+}
+
+article#use section.useapp4>p {
+
+}
+
+article#use>section.content>section.useapp5 {
+  position: absolute;
+  text-align: center;
+  padding: 20em 0 0 51%;
+}
+
+article#use section.useapp5>img {
+  height: 9em;
+  padding-bottom: 1.5em;
+
+}
+
+article#use section.useapp5>p {
+
 }
 
 article#coach {
