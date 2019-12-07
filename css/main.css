@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: rgb(255, 235, 205);
+  background-color: #fff;
   font-family: sans-serif;
 }
 
@@ -386,7 +386,7 @@ article#coach>section.content{
   width:70%;
   position: relative;
   margin: 0 auto;
-  min-height: 32em;
+  min-height: 33em;
 }
 
 article#coach header>h2 {
@@ -438,11 +438,9 @@ article#coach section#bubbles>ul>li>img {
 
 article#join {
   background-color: #daa;
-  clear: both;
 }
 
 article#join section.content{
-  position: relative;
   background-color: #add;
   width: 70%;
   margin: 0 auto;
@@ -522,6 +520,12 @@ input#text {
   margin-left: 12em;
   margin-top: 1em;
   border-style: none;
+}
+article#contact>img {
+  margin-left: 75em;
+  position: absolute;
+  top: 0;
+  margin-top: 244em;
 }
 
 article#empty {
