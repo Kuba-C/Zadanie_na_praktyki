@@ -437,14 +437,15 @@ article#coach section#bubbles>ul>li>img {
 }
 
 article#join {
-  background-color: #daa;
+  background-color: #fff;
+  min-height: 30em;
 }
 
 article#join section.content{
-  background-color: #add;
   position: relative;
   width: 70%;
   margin: 0 auto;
+  min-height: 30em;
 }
 
 article#join header>h2 {
@@ -455,38 +456,38 @@ article#join header>h2 {
 }
 
 article#join section#info>h4 {
-  padding-left: 5em;
+  padding-left: 15em;
   padding-top: 5em;
 }
 
 article#join section#info>p.date {
   padding-top: 1.5em;
-  padding-left: 5em;
+  padding-left: 15em;
 }
 
 article#join section#info>p.place {
-  padding-left: 5.6em;
+  padding-left: 16.7em;
   font-size: 0.9em;
 }
 
 article#join section#info>p.rec {
-  padding-left: 5.6em;
+  padding-left: 16.7em;
   padding-top: 3em;
   font-size: 0.9em;
 }
 
 article#join section#info>p.price {
   font-size: 0.7em;
-  padding-left: 7.1em;
+  padding-left: 21.5em;
   padding-top: 1.5em;
 }
 
 article#join>section.content>img {
   position: absolute;
   height: 20em;
-  padding-left: 30em;
-  top:0;
-  margin: 5em 0 0 0;
+  padding-left: 40em;
+  top: 0;
+  margin-top: 10em;
 }
 
 article#contact {
