@@ -203,7 +203,6 @@ article#create {
 }
 
 article#create .content{
-  position: relative;
   margin: 0 auto;
   width: 70%;
   min-height: 25em;
@@ -217,74 +216,37 @@ article#create h2 {
   padding-top: 2em;
 }
 
-article#create section.app1>h4 {
+article#create section.app > h4 {
   text-align: center;
   padding: 1em 0;
 }
 
-article#create section.app2>h4 {
-  text-align: center;
-  padding: 1em 0;
+#apps {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-article#create section.app3>h4 {
-  text-align: center;
-  padding: 1em 0;
-}
-
-section.app1 {
-  position: absolute;
+section.app {
+  position: relative;
   border-color: #DCDCDC;
+  margin: 50px 20px 0 0;
   border-style: solid;
   border-radius: 4px;
   font-size: 0.8em;
-  margin: 3em 0 0 20%;
   padding: 1.5em;
-  width: 15em;
+  width: 200px;
   height: 19em;
 }
 
-section.app1>img {
-  display: block;
-  margin: 0 auto;
-  height: 7em;
-}
-
-section.app2 {
+section.app > img {
+  top: -50px;
+  left: calc(50% - 50px); /* app.center - img.width */
+  width: 100px;
+  height: 100px;
   position: absolute;
-  border-color: #DCDCDC;
-  border-style: solid;
-  border-radius: 4px;
-  font-size: 0.8em;
-  margin: 3em 0 0 40%;
-  padding: 1.5em;
-  width: 15em;
-  height: 19em;
-}
-
-section.app2>img {
-  display: block;
-  margin: 0 auto;
-  height: 7em;
-
-}
-
-section.app3 {
-  position: absolute;
-  border-color: #DCDCDC;
-  border-style: solid;
-  border-radius: 4px;
-  font-size: 0.8em;
-  margin: 3em 0 0 60%;
-  padding: 1.5em;
-  width: 15em;
-  height: 19em;
-}
-
-section.app3>img {
-  display: block;
-  margin: 0 auto;
-  height: 6.5em;
+  background: #fff;
+  padding: 0;
 }
 
 article#use {
