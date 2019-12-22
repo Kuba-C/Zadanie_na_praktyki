@@ -213,18 +213,26 @@ article#create h2 {
   font-size: 1.5em;
   text-transform: capitalize;
   text-align: center;
-  padding-top: 2em;
+  padding-top: 135px;
+
 }
 
 article#create section.app > h4 {
   text-align: center;
-  padding: 1em 0;
+  padding-top: 4em;
+  padding-bottom: 31px;
 }
 
-#apps {
+div#apps {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  padding-top: 101px;
+  padding-bottom: 106px;
+}
+
+section.app>ul>li{
+  padding: 8px 0;
 }
 
 section.app {
@@ -235,15 +243,15 @@ section.app {
   border-radius: 4px;
   font-size: 0.8em;
   padding: 1.5em;
-  width: 200px;
+  width: 260px;
   height: 19em;
+  font-size: 15px;
 }
 
 section.app > img {
-  top: -50px;
-  left: calc(50% - 50px); /* app.center - img.width */
-  width: 100px;
-  height: 100px;
+  top: -80px;
+  left: calc(50% - 80px); /* app.center - img.width */
+  width: 160px;
   position: absolute;
   background: #fff;
   padding: 0;
