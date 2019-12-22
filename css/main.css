@@ -214,27 +214,17 @@ article#create h2 {
   font-size: 1.5em;
   text-transform: capitalize;
   text-align: center;
-  padding-top: 135px;
-
+  padding-top: 2em;
 }
 
 article#create section.app1>h4 {
   text-align: center;
-  padding-top: 3.5em;
-  padding-bottom: 31px;
-  font-size: 18px;
+  padding: 1em 0;
 }
 
-div#apps {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding-top: 101px;
-  padding-bottom: 106px;
-}
-
-section.app>ul>li{
-  padding: 8px 0;
+article#create section.app2>h4 {
+  text-align: center;
+  padding: 1em 0;
 }
 
 article#create section.app3>h4 {
@@ -250,15 +240,17 @@ section.app1 {
   font-size: 0.8em;
   margin: 3em 0 0 20%;
   padding: 1.5em;
-  width: 260px;
+  width: 15em;
   height: 19em;
-  font-size: 15px;
 }
 
-section.app > img {
-  top: -80px;
-  left: calc(50% - 80px); /* app.center - img.width */
+article#create img{
+  display: block;
+  margin: 0 auto;
   width: 160px;
+}
+
+section.app2 {
   position: absolute;
   border-color: #DCDCDC;
   border-style: solid;
