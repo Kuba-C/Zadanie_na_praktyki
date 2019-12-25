@@ -1,11 +1,23 @@
-* {
-  margin: 0;
-  padding: 0;
+/* Webfont: Lato-Black */@font-face {
+    font-family: 'LatoWebBlack';
+    src: url('fonts/Lato-Black.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Lato-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/Lato-Black.woff2') format('woff2'), /* Modern Browsers */
+         url('fonts/Lato-Black.woff') format('woff'), /* Modern Browsers */
+         url('fonts/Lato-Black.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
 }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
 
 body {
   background-color: #fff;
-  font-family: sans-serif;
+  font-family: 'LatoWebBlack', auto, sans-serif;
 }
 
 nav {
@@ -260,91 +272,50 @@ section.app > img {
 article#use {
   background-color: #fff;
   min-height: 40em;
+  text-align: center;
+}
+
+div#uses {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 105px;
+  padding-bottom: 50px;
+  padding-right: 90px;
+
+}
+
+div#uses2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 75px;
+  padding-right: 90px;
+
 }
 
 article#use>h2 {
   text-align: center;
-  padding-top: 1em;
+  padding-top: 75px;
 }
 article#use>section.content{
   width: 70%;
-  position: relative;
   margin: 0 auto;
 }
 
-article#use>section.content>section.useapp1 {
-  position: absolute;
+article#use>section.content section.useapp {
   text-align: center;
-  padding: 5em 0 0 20%;
+  margin-left: 90px;
 }
 
-article#use section.useapp1>img {
-  height: 9em;
-  padding-bottom: 1.5em;
+article#use section.useapp>img {
+  height: 200px;
+  padding-bottom: 55px;
 }
 
-article#use section.useapp1>p {
-  padding-top: 0.5em;
-}
-
-article#use>section.content>section.useapp2 {
-  position: absolute;
-  text-align: center;
-  padding: 5em 0 0 40%;
-}
-
-article#use section.useapp2>img {
-  height: 9em;
-  padding-bottom: 1.5em;
-}
-
-article#use section.useapp2>p {
-  padding-top: 0.5em;
-}
-
-article#use>section.content>section.useapp3 {
-  position: absolute;
-  text-align: center;
-  padding: 5em 0 0 60%;
-}
-
-article#use section.useapp3>img {
-  height: 9em;
-  padding-bottom: 1.5em;
-}
-
-article#use section.useapp3>p {
-  padding-top: 0.5em;
-}
-
-article#use>section.content>section.useapp4 {
-  position: absolute;
-  text-align: center;
-  padding: 20em 0 0 28%;
-}
-
-article#use section.useapp4>img {
-  height: 9em;
-  padding-bottom: 1.5em;
-}
-
-article#use section.useapp4>p {
-  padding-top: 0.5em;
-}
-
-article#use>section.content>section.useapp5 {
-  position: absolute;
-  text-align: center;
-  padding: 20em 0 0 51%;
-}
-
-article#use section.useapp5>img {
-  height: 9em;
-  padding-bottom: 1.5em;
-
-}
-
-article#use section.useapp5>p {
+article#use section.useapp>p {
   padding-top: 0.5em;
 }
 
