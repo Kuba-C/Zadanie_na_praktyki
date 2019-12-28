@@ -437,6 +437,7 @@ article#join>section.content>img {
 }
 
 article#contact {
+  position: relative;
   background-color: #6dcff6;
   color: white;
   min-height: 30em;
@@ -448,7 +449,6 @@ article#contact>form>fieldset {
   font-size: 1.5em;
   margin: 0 auto;
   padding: 1em 0 2em 0;
-  margin-left: 23em;
 }
 
 article#contact>form>fieldset>legend {
@@ -475,9 +475,10 @@ input#text {
 }
 
 article#contact>img {
-  float:right;
-  margin-top: 11em;
-  margin-right: 30em;
+  margin-left: 75em;
+  position: absolute;
+  top: 0;
+  padding-top: 11em;
 }
 
 article#empty {
