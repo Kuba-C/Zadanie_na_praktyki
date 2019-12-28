@@ -168,22 +168,19 @@ article#benefits h3 {
 }
 
 article#about {
-  clear: both;
   background-color: #fff;
 }
 
 article#about .content {
-  position: relative;
   margin: 0 auto;
   width: 70%;
-  min-height: 30em;
   background-color: #fff;
 }
 
 article#about .content img.background {
-  position: absolute;
-  bottom: 0;
-  left: 10em;
+  float: left;
+  margin-left: 14em;
+  margin-top: 8.42em;
 }
 
 article#about h3 {
@@ -481,7 +478,7 @@ article#contact>img {
   margin-left: 75em;
   position: absolute;
   top: 0;
-  margin-top: 9em;
+  padding-top: 11em;
 }
 
 article#empty {
