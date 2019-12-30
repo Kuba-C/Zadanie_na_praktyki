@@ -5,7 +5,7 @@
     url('C:/Users/Kuba123/Documents/GitHub/Zadanie_na_praktyki/fonts/Lato-Black.woff2') format('woff2'),
     url('C:/Users/Kuba123/Documents/GitHub/Zadanie_na_praktyki/fonts/Lato-Black.woff') format('woff'),
     url('C:/Users/Kuba123/Documents/GitHub/Zadanie_na_praktyki/fonts/Lato-Black.ttf') format('truetype');
-  font-style:  normal;
+  font-style: normal;
   font-weight: normal;
   text-rendering: optimizeLegibility;
 }
@@ -146,7 +146,6 @@ article#benefits ul {
   line-height: 2.6em;
   padding-left: 12em;
   float: left;
-
 }
 
 article#benefits ul>li {
@@ -330,51 +329,49 @@ article#coach {
 
 article#coach>section.content {
   width: 70%;
-  position: relative;
   margin: 0 auto;
-  min-height: 33em;
+  min-height: 31.4em;
 }
 
 article#coach header>h2 {
   text-align: center;
-  padding-top: 2em;
+  margin-top: 2em;
+  margin-bottom: 1em;
 }
 
 article#coach>section.content>img {
   height: 25em;
-  position: absolute;
-  bottom: 0;
-  left: 10em;
+  float: left;
+  margin-left: 13em;
+  margin-top: 3em;
 }
 
 article#coach section#aboutcoach>h3 {
-  padding-left: 30em;
-  padding-top: 2em;
+  margin-top: 2em;
 }
 
 article#coach section#aboutcoach>p.exp {
-  padding-left: 37em;
-  padding-top: 1em;
+  margin-top: 1em;
 }
 
 article#coach section#bubbles>p.one {
-  padding-top: 2em;
-  padding-left: 50em;
+  margin-top: 2em;
+  margin-left: 43em;
 }
 
 article#coach section#bubbles>p.two {
-  padding-top: 2em;
-  padding-left: 54em;
+  margin-top: 2em;
+  margin-left: 48em;
 }
 
 article#coach section#bubbles>ul {
   list-style-type: none;
-  padding-left: 55em;
-  padding-top: 2em;
+  margin-top: 2em;
+  margin-left: 50em;
 }
 
 article#coach section#bubbles>ul>li {
-  padding-left: 1em;
+  margin-left: 1em;
   float: left;
 }
 
