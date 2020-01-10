@@ -179,7 +179,7 @@ article#about .content {
 article#about .content img.background {
   float: left;
   margin-left: 14em;
-  margin-top: 8.42em;
+  margin-top: 7.85em;
 }
 
 article#about h3 {
@@ -339,11 +339,11 @@ article#coach header>h2 {
   margin-bottom: 1em;
 }
 
-article#coach>section.content>img {
+article#coach>section.content>img#m {
   height: 25em;
   float: left;
-  margin-left: 13em;
-  margin-top: 3em;
+  margin-left: 15em;
+  margin-top: 3.15em;
 }
 
 article#coach section#aboutcoach>h3 {
@@ -364,19 +364,14 @@ article#coach section#bubbles>p.two {
   margin-left: 48em;
 }
 
-article#coach section#bubbles>ul {
-  list-style-type: none;
-  margin-top: 2em;
+article#coach div#socialnetwork {
   margin-left: 50em;
 }
 
-article#coach section#bubbles>ul>li {
-  margin-left: 1em;
-  float: left;
-}
-
-article#coach section#bubbles>ul>li>img {
+article#coach div#socialnetwork>img.uno {
   height: 2em;
+  margin-left: 1em;
+  margin-top: 3em;
 }
 
 article#join {
@@ -476,6 +471,12 @@ article#contact>img {
   position: absolute;
   top: 0;
   padding-top: 11em;
+}
+
+article#contact input {
+  border-color: white;
+  border-style: solid;
+  border-radius: 0.3em;
 }
 
 article#empty {
