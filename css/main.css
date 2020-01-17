@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'LatoWebBlack';
-  src: url('C:/Users/Kuba123/Documents/GitHub/Zadanie_na_praktyki/fonts/Lato-Black.eot');
-  src: url('C:/Users/Kuba123/Documents/GitHub/Zadanie_na_praktyki/fonts/Lato-Black.eot?#iefix') format('embedded-opentype'),
-    url('C:/Users/Kuba123/Documents/GitHub/Zadanie_na_praktyki/fonts/Lato-Black.woff2') format('woff2'),
-    url('C:/Users/Kuba123/Documents/GitHub/Zadanie_na_praktyki/fonts/Lato-Black.woff') format('woff'),
-    url('C:/Users/Kuba123/Documents/GitHub/Zadanie_na_praktyki/fonts/Lato-Black.ttf') format('truetype');
+  src: url('../fonts/Lato-Black.eot');
+  src: url('../fonts/Lato-Black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Lato-Black.woff2') format('woff2'),
+    url('../fonts/Lato-Black.woff') format('woff'),
+    url('../fonts/Lato-Black.ttf') format('truetype');
   font-style: normal;
   font-weight: normal;
   text-rendering: optimizeLegibility;
@@ -12,11 +12,11 @@
 
 @font-face {
   font-family: 'BebasNeue';
-  src: url('C:/Users/Kuba123/Documents/GitHub/Zadanie_na_praktyki/fonts/BebasNeue-Regular.eot');
-  src: url('C:/Users/Kuba123/Documents/GitHub/Zadanie_na_praktyki/fonts/BebasNeue-Regular.eot?#iefix') format('embedded-opentype'),
-    url('C:/Users/Kuba123/Documents/GitHub/Zadanie_na_praktyki/fonts/BebasNeue-Regular.woff2') format('woff2'),
-    url('C:/Users/Kuba123/Documents/GitHub/Zadanie_na_praktyki/fonts/BebasNeue-Regular.woff') format('woff'),
-    url('C:/Users/Kuba123/Documents/GitHub/Zadanie_na_praktyki/fonts/BebasNeue-Regular.ttf') format('truetype');
+  src: url('../fonts/BebasNeue-Regular.eot');
+  src: url('../fonts/BebasNeue-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/BebasNeue-Regular.woff2') format('woff2'),
+    url('../fonts/BebasNeue-Regular.woff') format('woff'),
+    url('../fonts/BebasNeue-Regular.ttf') format('truetype');
   font-style: normal;
   font-weight: normal;
   text-rendering: optimizeLegibility;
@@ -43,16 +43,17 @@ nav {
 nav>ul {
   margin: 0 auto;
   width: 50%;
+  list-style-type: none;
 }
 
 nav>ul>li {
-  display: block;
-  padding: 14px 16px;
   float: left;
   margin-left: 50px;
 }
 
 nav>ul>li a {
+  display: block;
+  padding: 14px 16px;
   color: white;
   text-align: center;
   text-decoration: none;
@@ -79,6 +80,7 @@ article#start>header>h1 {
   font-size: 3.5em;
   text-transform: uppercase;
   padding-top: 0.2em;
+  font-family: "BebasNeue";
 }
 
 article#start>header>h2 {
@@ -174,12 +176,16 @@ article#about .content {
   margin: 0 auto;
   width: 70%;
   background-color: #fff;
+  position: relative;
+  background: transparent url("../img/iphone-part.png") bottom left no-repeat;
 }
 
 article#about .content img.background {
-  float: left;
-  margin-left: 14em;
-  margin-top: 7.85em;
+  /*float: left;*/
+  /*margin-left: 14em;*/
+  /*margin-top: 7.85em;*/
+  /*position: absolute;*/
+  /*bottom: 0;*/
 }
 
 article#about h3 {
@@ -325,6 +331,7 @@ article#use section.useapp>p {
 
 article#coach {
   background-color: #fff;
+  border-bottom: 1px solid #000;
 }
 
 article#coach>section.content {
@@ -368,10 +375,14 @@ article#coach div#socialnetwork {
   margin-left: 50em;
 }
 
-article#coach div#socialnetwork>img.uno {
+article#coach div#socialnetwork img.uno {
   height: 2em;
   margin-left: 1em;
   margin-top: 3em;
+}
+
+article#coach div#socialnetwork a:hover img.uno {
+  height: 2.3em;
 }
 
 article#join {
